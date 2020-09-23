@@ -1,0 +1,12 @@
+<!-- -*- coding: utf-8; -*- -->
+<InfoTheme version="1.0">
+  <Program>
+    <Name>GiD black compact</Name>
+    <Version>0.1</Version>
+    <MinimumGiDVersion>15.0.1</MinimumGiDVersion>
+    <Description>GiD black theme more compact</Description>
+    <NewsInVersion version="0.1" date="2020-09-23">
+      * First version
+    </NewsInVersion>
+  </Program>
+</InfoTheme>

@@ -1,0 +1,85 @@
+<GID_THEME name="GiD_black_compact">
+  <info>images folder is always "GiD/themes/(name of theme)/images/"
+        cursors folder is always "GiD/themes/(name of theme)/cursors/"
+	if it does not find a folder it will use the alternative definition
+	size folder start inside "images" theme folder
+        alternative folder start from "GiD/themes/" folder
+  </info>
+  <label>GiD Black Compact</label>
+  <version>1.0</version>
+  <!-- need to be GiD_classic for window title icons, and other images present int images/* but not in images/size*/* -->
+  <alternative_theme>GiD_classic</alternative_theme>
+
+  <SizeDefinitions>
+    <SizeDefinition name='size16'>
+      <label>size 16px</label>
+      <folder>size16</folder>
+      <alternative_folder>GiD_black/images/size16</alternative_folder>
+    </SizeDefinition>
+
+    <SizeDefinition name='size24'>
+      <label>size 24px</label>
+      <folder>size24</folder>
+      <alternative_folder>GiD_black/images/size24</alternative_folder>
+    </SizeDefinition>
+
+    <SizeDefinition name='size32'>
+      <label>size 32px</label>
+      <folder>size32</folder>
+      <alternative_folder>GiD_black/images/size32</alternative_folder>
+    </SizeDefinition>
+
+    <SizeDefinition name='size64'>
+      <label>size 64px</label>
+      <folder>size64</folder>
+      <alternative_folder>GiD_black/images/size64</alternative_folder>
+    </SizeDefinition>
+  </SizeDefinitions>
+
+  <ThemeSizes>
+    <ThemeSize size='-1'>
+      <IconCategory name='menu'>size16</IconCategory>
+      <IconCategory name='toolbar'>size16</IconCategory>
+      <IconCategory name='small_icons'>size16</IconCategory>
+      <IconCategory name='large_icons'>size16</IconCategory>
+    </ThemeSize>
+    <ThemeSize size='0'>
+      <IconCategory name='menu'>size16</IconCategory>
+      <IconCategory name='toolbar'>size24</IconCategory>
+      <IconCategory name='small_icons'>size16</IconCategory>
+      <IconCategory name='large_icons'>size24</IconCategory>
+    </ThemeSize>
+    <ThemeSize size='+1'>
+      <IconCategory name='menu'>size24</IconCategory>
+      <IconCategory name='toolbar'>size32</IconCategory>
+      <IconCategory name='small_icons'>size24</IconCategory>
+      <IconCategory name='large_icons'>size32</IconCategory>
+    </ThemeSize>
+    <ThemeSize size='+2'>
+      <IconCategory name='menu'>size32</IconCategory>
+      <IconCategory name='toolbar'>size64</IconCategory>
+      <IconCategory name='small_icons'>size24</IconCategory>
+      <IconCategory name='large_icons'>size64</IconCategory>
+    </ThemeSize>
+  </ThemeSizes>
+
+  <OnlyDefineColorsOnMainGiDFrame>false</OnlyDefineColorsOnMainGiDFrame>
+  <TtkTheme>clammod_black_2</TtkTheme>
+  <TkFromTheme>true</TkFromTheme>
+  <TypeMenu>generic</TypeMenu>
+  <PaddingWidgets>2</PaddingWidgets>
+  
+  <BackgroundColor>#000000</BackgroundColor>
+  <BackColorType>1</BackColorType>
+  <BackColorTop>#000000</BackColorTop>
+  <BackColorBottom>#323c4b</BackColorBottom>
+  <BackColorSense>d</BackColorSense>
+  <ColorPoints>#dcdcdc</ColorPoints>
+  <ColorNodes>#dcdcdc</ColorNodes>  
+  <ColorLines>#5b5ee1</ColorLines>
+  <ColorPolyLines>#008f27</ColorPolyLines>
+  <ColorSurfaces>#da24dc</ColorSurfaces>
+  <ColorSurfsIsoparametric>#dcda24</ColorSurfsIsoparametric>
+  <ColorVolumes>#56d9d8</ColorVolumes>
+  <ColorElements>#999999</ColorElements>
+</GID_THEME>
