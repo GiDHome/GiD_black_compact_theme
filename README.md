@@ -1,0 +1,1 @@
+# GiD_black_compact_theme
